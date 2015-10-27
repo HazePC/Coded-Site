@@ -1,4 +1,13 @@
 
 /*This is our stylesheet for the CSS on our website*/
 
+div {
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: none;
+}
 
+p {
+  
+}
