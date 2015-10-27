@@ -21,3 +21,9 @@ p p {
   border-left: 0px;
   border-right: 0px;
 }
+
+div div div {
+  display: block;
+  margin: auto;
+  width: 10px;
+}
