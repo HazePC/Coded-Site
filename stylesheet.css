@@ -9,5 +9,15 @@ div {
 }
 
 p {
-  
+  text-align: center;
+  border: solid 2px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+p p {
+  text-align: center;
+  border: solid 2px;
+  border-left: 0px;
+  border-right: 0px;
 }
