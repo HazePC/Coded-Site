@@ -8,6 +8,17 @@ div {
   border: none;
 }
 
+div p{
+  margin: auto;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 8px;
+  width: 160px;
+  background: #70FFFF
+}
+  
+}
 p {
   text-align: center;
   border: solid 2px;
