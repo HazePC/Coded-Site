@@ -1,45 +1,91 @@
-
-/*This is our stylesheet for the CSS on our website*/
-
-div {
+#header{
+  position: absolute;
+  margin: auto;
+  height: 50px;
+  width: 1334px;
+  background-color: #00ff7f;
+  clear: both;
+  border-bottom: 3px solid black;
+}
+#header ul{
+  display: inline;
+  list-style: none;
+}
+#header ul li a{
+  text-decoration: none;
+  float: right;
   display: block;
-  margin: auto;
-  text-align: center;
-  border: none;
-}
+  margin-right: 20px;
+  font-family: Helvetica;
+  border-left: 2px solid black;
 
-div p {
-  margin: auto;
-  border: 2px solid black;
-  text-align: center;
-  font-size: 17px;
-  border-radius: 8px;
-  width: 160px;
-  background: #70FFFF
 }
+#header ul li a:hover{
+  color: white;
+}
+.footer{
+  float: left;
+  height: 600px;
+  width: 300px;
+  background-color: #d9d9d9;
+}
+.first{
+  position: absolute;
+  margin-left: 56px;
+  text-align: center;
+  width: 15%;
+  height: 20px;
+  background-color: #00ff7f;
+  margin-top: 15px;
+  font-family: helvetica;
+}
+img {
+  position: relative;
+  width: 30px;
+  margin-left: -290px;
+}
+div > img{
+  position: ;
+  width: 72%;
+  height:550px;
+  margin-left: 50px;
+  float: right;
+  margin-right: -2px;
+  margin-top: -2px;
+}
+#second{
+  position: relative;
+  width: 1334px;
+  height: 600px;
+  background-color: #ccffcc;
+  clear: both;
+  border-top: 3px solid black;
   
 }
-p {
-  text-align: center;
-  border: solid 2px;
-  border-left: 0px;
-  border-right: 0px;
+h3{
+  position: relative;
+  float: right;
+  margin-right: 182px;
+  font-family: arial`;
 }
-
-p p {
-  text-align: center;
-  border: solid 2px;
-  border-left: 0px;
-  border-right: 0px;
+div > p{
+  position: absolute;
+  float: right;
+  margin-top: 60px
 }
-
-p1 {
-  text-align: center;
-  font-size: 19px;
+#fourth{
+  height: 450px;
+  background-color: black;
+  width: 3px;
+  margin-left: -30px;
+  float: left;
 }
-
-div div div {
-  display: block;
-  margin: auto;
-  width: 10px;
+#fifth{
+  margin-right: -297px;
+  height: 500px;
+  width: 440px;
+  background-color: black;
+  margin-top: 60px;
+  float: right;
+  background-color: #ccffcc;
 }
