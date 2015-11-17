@@ -88,3 +88,11 @@ h3{
 .second .navmp ul li a:hover{
   color: red;
 }
+.second .box{
+  background-color: #003366;
+  width: 230px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 7px;
+  margin-left: 235px
+}
