@@ -8,14 +8,17 @@ header nav ul{
   list-style: none;
   padding-bottom: 35px;
   padding-top: 20px;
-
+}
+header nav a.home, header nav a:hover {
+  color: #369;
+  border-color: #3973ac;
 }
 header nav li{
   display: inline;
   margin-right: 10px;
   font-size: 17px;
 }
-header ul li a{
+header nav a{
   text-decoration: none;
   color: #4d4d4d;
   font-family: Helvetica;
