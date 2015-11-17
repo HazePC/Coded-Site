@@ -1,91 +1,73 @@
-#header{
-  position: absolute;
-  margin: auto;
-  height: 50px;
-  width: 1334px;
-  background-color: #00ff7f;
-  clear: both;
-  border-bottom: 3px solid black;
+header{
+  text-align: center;
+  background-color: #e9e9e9;
+  border-radius: 5px;
+  box-shadow: -5px 5px 0 #999999;
 }
-#header ul{
-  display: inline;
+header nav ul{
   list-style: none;
-}
-#header ul li a{
-  text-decoration: none;
-  float: right;
-  display: block;
-  margin-right: 20px;
-  font-family: Helvetica;
-  border-left: 2px solid black;
+  padding-bottom: 35px;
+  padding-top: 20px;
 
 }
-#header ul li a:hover{
-  color: white;
+header nav li{
+  display: inline;
+  margin-right: 10px;
+  font-size: 17px;
 }
-.footer{
-  float: left;
-  height: 600px;
-  width: 300px;
-  background-color: #d9d9d9;
+header ul li a{
+  text-decoration: none;
+  color: #4d4d4d;
+  font-family: Helvetica;
+  text-transform: uppercase;
 }
-.first{
-  position: absolute;
-  margin-left: 56px;
-  text-align: center;
-  width: 15%;
-  height: 20px;
-  background-color: #00ff7f;
-  margin-top: 15px;
-  font-family: helvetica;
+header ul li a:hover{
+  color: #003166;
+  text-decoration: underline;
 }
-img {
-  position: relative;
-  width: 30px;
-  margin-left: -290px;
-}
-div > img{
-  position: ;
-  width: 72%;
-  height:550px;
-  margin-left: 50px;
-  float: right;
-  margin-right: -2px;
-  margin-top: -2px;
-}
-#second{
-  position: relative;
-  width: 1334px;
-  height: 600px;
-  background-color: #ccffcc;
-  clear: both;
-  border-top: 3px solid black;
-  
+header .top h3{
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: #003366;
+  box-shadow: inset 5px -5px 0 #001933;
 }
 h3{
-  position: relative;
-  float: right;
-  margin-right: 182px;
-  font-family: arial`;
+  color: white;
+  font-family: Helvetica;
+  font-weight: 200;
 }
-div > p{
+.img1{
   position: absolute;
-  float: right;
-  margin-top: 60px
+  display: block;
+  margin-left: 0px;
 }
-#fourth{
-  height: 450px;
-  background-color: black;
-  width: 3px;
-  margin-left: -30px;
-  float: left;
+.second{
+  max-width: 700px;
+  margin: auto;
 }
-#fifth{
-  margin-right: -297px;
-  height: 500px;
-  width: 440px;
-  background-color: black;
-  margin-top: 60px;
-  float: right;
-  background-color: #ccffcc;
+.first{
+  margin-top: 40px;
+}
+.second .head{
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  width: 133px;
+  padding: 5px;
+}
+.second p{
+  display: block;
+  font-family: arial;
+  font-size: 17px;
+  }
+.second ul li{
+  font-family: Helvetica;
+}
+#footer p{
+  text-align: center;
+  font-size: 14px;
 }
